@@ -36,11 +36,11 @@ h1 {
 h2 {
     font-family: "Minecrafter";
     font-size: 30px;
+    color: white;
 }
 
 .main {
     padding: 3%;
-    
 }
 
 .main h1 {
