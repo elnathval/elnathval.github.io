@@ -7,6 +7,7 @@
 }
 body{
     margin:0%;
+    background-color: #2c2f33;
 } 
 
 .logoText {
@@ -15,7 +16,7 @@ body{
 }
 
 .header {
-    background-color: #18dbd2;
+    background-color: #0c7872;
 }
 
 @font-face {
@@ -30,6 +31,20 @@ body{
 
 h1 {
     font-family: "Minecrafter";
+}
+
+h2 {
+    font-family: "Minecrafter";
+    font-size: 30px;
+}
+
+.main {
+    padding: 3%;
+    
+}
+
+.main h1 {
+    color: #FFFFFF;
 }
 
 .navbar {
