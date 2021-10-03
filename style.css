@@ -75,13 +75,23 @@ h2 {
 .logo-settings {
    border-radius: 50%;
    margin-top: -8px;
-   margin-left: -95px;
+   margin-left: -100px;
    margin-right: -95px;
    margin-bottom: -10px;
 }
 
+.logo-setting {
+    border-radius: 50%;
+    margin-top: -8px;
+    margin-left: -100px;
+    margin-right: -95px;
+    margin-bottom: -10px;
+ }
+
+
 .navbar a.right {
     float: right;
+    padding: 15px 70px;
 }
 
 .navbar a:hover {
