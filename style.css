@@ -29,9 +29,20 @@ body{
     src: url("fonts/Minecrafter.Alt.ttf");
 }
 
+@font-face {
+    font-family: "Minecraftia";
+    src: url("fonts/Minecraftia-Regular.ttf");
+}
+
 h1 {
     font-family: "Minecrafter";
 }
+
+.text {
+    font-family: "Minecraftia";
+    font-size: 20px;
+}
+
 
 h2 {
     font-family: "Minecrafter";
@@ -59,6 +70,18 @@ h2 {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+}
+
+.logo-settings {
+   border-radius: 50%;
+   margin-top: -8px;
+   margin-left: -95px;
+   margin-right: -95px;
+   margin-bottom: -10px;
+}
+
+.navbar a.right {
+    float: right;
 }
 
 .navbar a:hover {
