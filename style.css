@@ -124,3 +124,9 @@ h2 {
 .h2-minecraftia a {
     color:white;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
