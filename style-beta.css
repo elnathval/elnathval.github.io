@@ -1,102 +1,108 @@
-@font-face {
-    font-family: Minecrafter;
-    src: url("fonts/Minecrafter.Reg.ttf");
-}
-@font-face {
-  font-family: MinecrafterAlt;
-  src: url("fonts/Minecrafter.Alt.ttf");
-}
 body{
-    margin: 0%;
+  margin: 0;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-style: normal;
 }
-header {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding-left: 2%;
-    padding-top: 1%;
-    padding-bottom: 0.2%;
-    background-color: #00DDFD;
-}
-h1{
-    font-family: "Minecrafter";
-}
-a:link, a:visited{
-    text-decoration: none;
-    color: white;
-    -webkit-text-stroke: 0.1px black;
-    text-shadow: 2px 2px 4px black;
-}
-.sidebar {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    right: 0;
-    background-color: rgba(17, 17, 17, 0.7); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-  }
-  .sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidebar a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 10px;
-    font-size: 36px;
-    margin-right: 50px;
-  }
-  
-  /* The button used to open the sidebar */
-  .openbtn {
-    font-size: 30px;
-    cursor: pointer;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    background-color: #00DDFD;
-    transition: 0.3s;
-  }
 
-  .openbtn:hover {
-    color: #818181;
-  }
-  
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-right .5s; /* If you want a transition effect */
-    padding: 20px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
+h1 {
+  margin: 0%;
+}
 
-  .notopac{
-    opacity: 1;
-  }
 
-  .header-nav {
-    font-family: "MinecrafterAlt";
-    margin-left: 2%;
-    color: white;
-    -webkit-text-stroke: 0.4px black;
-    text-shadow: 2px 2px 4px black;
-  }
+.header{
+  background-color: #031D45;
+  padding: 11vw;
+  
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header .photo{
+  border-radius: 45%;
+  margin-right: 50px;
+  width: 18vw;
+}
+
+.header h1{
+  font-weight: 500;
+  font-size: 4vw;
+}
+
+.header h2{
+  font-weight: 300;
+  font-size: 1.7vw;
+}
+
+.header .socialmedia{
+  display: flex;
+}
+
+.header .socialmedia img{
+  width: 4vw;
+  margin-right: 2vw; 
+  border-radius: 20%;
+}
+
+.header .socialmedia a:hover{
+  margin-top: -1vh;
+  padding-bottom: 1vh;
+  transition-duration: 100ms;
+  
+}
+
+.header .socialmedia a{
+  transition-duration: 100ms;
+  text-decoration: none;
+}
+
+.aboutme{
+  background-color: #011627;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4vw;
+
+}
+
+.aboutme h1, .aptitudes h1, .projects h1, .career h1{
+  font-weight: 400;
+  font-size: 3vw;
+  color: white;
+}
+
+.aboutme h2, .aptitudes h2, .projects h2, .career h2{
+  font-weight: 300;
+  font-size: 1.75vw;
+  color: white;
+}
+
+.aboutme img {
+  justify-self: right;
+  width: 35vw;
+  align-self: flex-end;
+}
+
+.aptitudes {
+  background: rgb(111,115,210);
+  background: linear-gradient(0deg, rgba(111,115,210,1) 64%, rgba(1,22,39,1) 100%);
+  padding: 4vw;
+  color: white;
+}
+
+.projects {
+  background-color: #031D45;
+  padding: 4vw;
+  color: white;
+}
+
+.projects h3{
+  font-weight: 200;
+  font-size: 1.25vw;
+  color: white;
+}
+
+.career{
+  background-color: #011627;
+  padding: 4vw;
+  color:white;
+}
