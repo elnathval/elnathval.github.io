@@ -21,17 +21,17 @@ h1 {
 .header .photo{
   border-radius: 45%;
   margin-right: 50px;
-  width: 18vw;
+  width: 34vh;
+  height:  34vh;
 }
-
 .header h1{
   font-weight: 500;
-  font-size: 4vw;
+  font-size: 8vh;
 }
 
 .header h2{
   font-weight: 300;
-  font-size: 1.7vw;
+  font-size: 3.5vh;
 }
 
 .header .socialmedia{
@@ -39,7 +39,7 @@ h1 {
 }
 
 .header .socialmedia img{
-  width: 4vw;
+  width: 8vh;
   margin-right: 2vw; 
   border-radius: 20%;
 }
@@ -61,24 +61,25 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   padding: 4vw;
+  justify-content: center;
 
 }
 
 .aboutme h1, .aptitudes h1, .projects h1, .career h1{
   font-weight: 400;
-  font-size: 3vw;
+  font-size: 6vh;
   color: white;
 }
 
 .aboutme h2, .aptitudes h2, .projects h2, .career h2{
   font-weight: 300;
-  font-size: 1.75vw;
+  font-size: 3.7vh;
   color: white;
 }
 
 .aboutme img {
-  justify-self: right;
-  width: 35vw;
+  width: 500px;
+  padding-left: 4vw;
   align-self: flex-end;
 }
 
@@ -97,7 +98,7 @@ h1 {
 
 .projects h3{
   font-weight: 200;
-  font-size: 1.25vw;
+  font-size: 2.5vh;
   color: white;
 }
 
@@ -105,4 +106,11 @@ h1 {
   background-color: #011627;
   padding: 4vw;
   color:white;
+}
+
+@media only screen and (max-width: 1230px){
+  .aboutme img {
+    width: 90vw;
+    padding-right: 5vw;
+  }
 }
